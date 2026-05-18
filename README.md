@@ -225,59 +225,6 @@ The bidirectional models clearly outperform the unidirectional ones. This result
 
 The best-performing model is the **Bidirectional GRU**, with a test accuracy of approximately **69.4%**.
 
-## Technologies Used
-
-- R
-- Keras
-- TensorFlow
-- tidyverse
-- ggplot2
-- randomForest
-- tictoc
-- gridExtra
-
-## Repository Structure
-
-A possible structure for this repository is:
-
-```text
-.
-├── README.md
-├── Favagrossa_Progetto.html
-├── project.Rmd
-├── data/
-│   └── protein-secondary-structure.csv
-├── models/
-└── figures/
-```
-
-## How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/FrancescoFavagrossa/Protein-Secondary-Structure-Prediction-BiRNN.git
-```
-
-2. Open the project in RStudio.
-
-3. Install the required R packages:
-
-```r
-install.packages(c(
-  "tidyverse",
-  "keras3",
-  "randomForest",
-  "ggplot2",
-  "tictoc",
-  "gridExtra"
-))
-```
-
-4. Make sure the dataset is available in the correct folder.
-
-5. Run the R Markdown file or the R script containing the analysis.
-
 ## Main Takeaways
 
 - Protein secondary structure prediction can be approached as a sequence labeling problem.

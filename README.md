@@ -256,7 +256,7 @@ A possible structure for this repository is:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/FrancescoFavagrossa/Protein-Secondary-Structure-Prediction-BiRNN.git
 ```
 
 2. Open the project in RStudio.
